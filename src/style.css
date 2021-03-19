@@ -1,0 +1,37 @@
+:root {
+  --accent-color: #9a2336;
+  --text-color: #2d1b17;
+}
+
+body {
+  margin: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: var(--accent-color);
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: var(--accent-color);
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+p {
+  color: var(--text-color);
+  text-align: center;
+  margin: 0 20px;
+}
+
+.croissant-photo {
+  max-width: 80%;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+}
